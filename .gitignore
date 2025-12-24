@@ -13,10 +13,3 @@ ENV/
 # PyCharm
 .idea/
 *.iml
-
-# Data & results (optional)
-data/
-results/
-samples/
-checkpoints/
-logs/

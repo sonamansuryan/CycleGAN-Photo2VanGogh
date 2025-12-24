@@ -39,11 +39,11 @@ Three complementary loss functions are used:
 3. **Identity Loss:** L1 loss preserving color composition when input is already in the target domain  
 
 **Total loss:**
-$$
+\[
 L_{\text{total}} = L_{\text{GAN}} + \lambda_{\text{cycle}} \cdot L_{\text{cycle}} + \lambda_{\text{identity}} \cdot L_{\text{identity}}
-$$
+\]  
 
-where $\lambda_{\text{cycle}} = 15.0$ and $\lambda_{\text{identity}} = 0.1$.
+Where \(\lambda_{\text{cycle}} = 15.0\) and \(\lambda_{\text{identity}} = 0.1\).
 
 ---
 
@@ -301,4 +301,4 @@ For educational and research purposes. Ensure compliance with CycleGAN and datas
 
 Questions, issues, or contributions: see project repository or contact maintainer.
 
-
+```
