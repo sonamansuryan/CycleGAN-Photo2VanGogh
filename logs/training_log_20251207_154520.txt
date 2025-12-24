@@ -1,0 +1,159 @@
+======================================================================
+TRAINING STARTED: 20251207_154520
+======================================================================
+Device: cuda
+GPU: NVIDIA GeForce RTX 4070 Laptop GPU
+Memory: 8.00 GB
+Dataset loaded: 1500 image pairs
+AUTO-RESUMING from epoch 186
+Training from epoch 186 to 200
+======================================================================
+
+
+Epoch 186/200 Summary:
+  G Loss: 1.5241
+  D_A Loss: 0.1707
+  D_B Loss: 0.1627
+  Cycle Loss: 0.0987
+  Identity Loss: 0.1345
+  Total Loss: 1.6907
+  LR: 0.000028
+ New best model!
+
+Epoch 187/200 Summary:
+  G Loss: 1.5190
+  D_A Loss: 0.1696
+  D_B Loss: 0.1620
+  Cycle Loss: 0.0982
+  Identity Loss: 0.1355
+  Total Loss: 1.6848
+  LR: 0.000026
+ New best model!
+
+Epoch 188/200 Summary:
+  G Loss: 1.5179
+  D_A Loss: 0.1691
+  D_B Loss: 0.1631
+  Cycle Loss: 0.0983
+  Identity Loss: 0.1360
+  Total Loss: 1.6840
+  LR: 0.000024
+ New best model!
+
+Epoch 189/200 Summary:
+  G Loss: 1.5053
+  D_A Loss: 0.1691
+  D_B Loss: 0.1600
+  Cycle Loss: 0.0966
+  Identity Loss: 0.1326
+  Total Loss: 1.6699
+  LR: 0.000022
+ New best model!
+
+Epoch 190/200 Summary:
+  G Loss: 1.5085
+  D_A Loss: 0.1683
+  D_B Loss: 0.1605
+  Cycle Loss: 0.0971
+  Identity Loss: 0.1326
+  Total Loss: 1.6729
+  LR: 0.000020
+
+Epoch 191/200 Summary:
+  G Loss: 1.5096
+  D_A Loss: 0.1683
+  D_B Loss: 0.1625
+  Cycle Loss: 0.0972
+  Identity Loss: 0.1327
+  Total Loss: 1.6750
+  LR: 0.000018
+
+Epoch 192/200 Summary:
+  G Loss: 1.5052
+  D_A Loss: 0.1704
+  D_B Loss: 0.1611
+  Cycle Loss: 0.0969
+  Identity Loss: 0.1337
+  Total Loss: 1.6709
+  LR: 0.000016
+
+Epoch 193/200 Summary:
+  G Loss: 1.5002
+  D_A Loss: 0.1679
+  D_B Loss: 0.1612
+  Cycle Loss: 0.0963
+  Identity Loss: 0.1336
+  Total Loss: 1.6647
+  LR: 0.000014
+ New best model!
+
+Epoch 194/200 Summary:
+  G Loss: 1.5007
+  D_A Loss: 0.1670
+  D_B Loss: 0.1592
+  Cycle Loss: 0.0960
+  Identity Loss: 0.1336
+  Total Loss: 1.6638
+  LR: 0.000012
+ New best model!
+
+Epoch 195/200 Summary:
+  G Loss: 1.5136
+  D_A Loss: 0.1675
+  D_B Loss: 0.1585
+  Cycle Loss: 0.0970
+  Identity Loss: 0.1332
+  Total Loss: 1.6766
+  LR: 0.000010
+
+Epoch 196/200 Summary:
+  G Loss: 1.4973
+  D_A Loss: 0.1671
+  D_B Loss: 0.1586
+  Cycle Loss: 0.0957
+  Identity Loss: 0.1340
+  Total Loss: 1.6602
+  LR: 0.000008
+ New best model!
+
+Epoch 197/200 Summary:
+  G Loss: 1.4997
+  D_A Loss: 0.1695
+  D_B Loss: 0.1593
+  Cycle Loss: 0.0962
+  Identity Loss: 0.1337
+  Total Loss: 1.6641
+  LR: 0.000006
+
+Epoch 198/200 Summary:
+  G Loss: 1.4886
+  D_A Loss: 0.1681
+  D_B Loss: 0.1576
+  Cycle Loss: 0.0951
+  Identity Loss: 0.1323
+  Total Loss: 1.6514
+  LR: 0.000004
+ New best model!
+
+Epoch 199/200 Summary:
+  G Loss: 1.4824
+  D_A Loss: 0.1674
+  D_B Loss: 0.1573
+  Cycle Loss: 0.0943
+  Identity Loss: 0.1321
+  Total Loss: 1.6447
+  LR: 0.000002
+ New best model!
+
+Epoch 200/200 Summary:
+  G Loss: 1.5042
+  D_A Loss: 0.1645
+  D_B Loss: 0.1548
+  Cycle Loss: 0.0961
+  Identity Loss: 0.1332
+  Total Loss: 1.6638
+  LR: 0.000000
+
+======================================================================
+Training completed! All 200 epochs finished.
+======================================================================

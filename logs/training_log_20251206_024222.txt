@@ -1,0 +1,19 @@
+======================================================================
+TRAINING STARTED: 20251206_024222
+======================================================================
+Device: cuda
+GPU: NVIDIA GeForce RTX 4070 Laptop GPU
+Memory: 8.00 GB
+Epochs: 200
+Batch size: 1
+Early stopping patience: 20
+Data augmentation: ENABLED
+======================================================================
+
+Dataset loaded: 1500 image pairs
+Batches per epoch: 1500
+
+Models initialized
+
+Starting training...
+

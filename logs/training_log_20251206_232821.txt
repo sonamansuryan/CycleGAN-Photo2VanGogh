@@ -1,0 +1,210 @@
+======================================================================
+TRAINING STARTED: 20251206_232821
+======================================================================
+Device: cuda
+GPU: NVIDIA GeForce RTX 4070 Laptop GPU
+Memory: 8.00 GB
+Dataset loaded: 1500 image pairs
+AUTO-RESUMING from epoch 101
+Training from epoch 101 to 200
+======================================================================
+
+
+Epoch 101/200 Summary:
+  G Loss: 1.7612
+  D_A Loss: 0.1887
+  D_B Loss: 0.1844
+  Cycle Loss: 0.1245
+  Identity Loss: 0.1603
+  Total Loss: 1.9477
+  LR: 0.000198
+ New best model!
+
+Epoch 102/200 Summary:
+  G Loss: 1.7601
+  D_A Loss: 0.1893
+  D_B Loss: 0.1829
+  Cycle Loss: 0.1246
+  Identity Loss: 0.1644
+  Total Loss: 1.9463
+  LR: 0.000196
+ New best model!
+
+Epoch 103/200 Summary:
+  G Loss: 1.7562
+  D_A Loss: 0.1866
+  D_B Loss: 0.1854
+  Cycle Loss: 0.1240
+  Identity Loss: 0.1600
+  Total Loss: 1.9422
+  LR: 0.000194
+ New best model!
+
+Epoch 104/200 Summary:
+  G Loss: 1.7783
+  D_A Loss: 0.1910
+  D_B Loss: 0.1807
+  Cycle Loss: 0.1258
+  Identity Loss: 0.1636
+  Total Loss: 1.9642
+  LR: 0.000192
+
+Epoch 105/200 Summary:
+  G Loss: 1.7621
+  D_A Loss: 0.1880
+  D_B Loss: 0.1805
+  Cycle Loss: 0.1243
+  Identity Loss: 0.1633
+  Total Loss: 1.9464
+  LR: 0.000190
+
+Epoch 106/200 Summary:
+  G Loss: 1.7577
+  D_A Loss: 0.1820
+  D_B Loss: 0.1826
+  Cycle Loss: 0.1236
+  Identity Loss: 0.1583
+  Total Loss: 1.9400
+  LR: 0.000188
+ New best model!
+
+Epoch 107/200 Summary:
+  G Loss: 1.7325
+  D_A Loss: 0.1863
+  D_B Loss: 0.1850
+  Cycle Loss: 0.1219
+  Identity Loss: 0.1608
+  Total Loss: 1.9182
+  LR: 0.000186
+ New best model!
+
+Epoch 108/200 Summary:
+  G Loss: 1.7220
+  D_A Loss: 0.1880
+  D_B Loss: 0.1838
+  Cycle Loss: 0.1211
+  Identity Loss: 0.1571
+  Total Loss: 1.9079
+  LR: 0.000184
+ New best model!
+
+Epoch 109/200 Summary:
+  G Loss: 1.7293
+  D_A Loss: 0.1854
+  D_B Loss: 0.1858
+  Cycle Loss: 0.1219
+  Identity Loss: 0.1599
+  Total Loss: 1.9149
+  LR: 0.000182
+
+Epoch 110/200 Summary:
+  G Loss: 1.7264
+  D_A Loss: 0.1873
+  D_B Loss: 0.1806
+  Cycle Loss: 0.1209
+  Identity Loss: 0.1609
+  Total Loss: 1.9103
+  LR: 0.000180
+
+Epoch 111/200 Summary:
+  G Loss: 1.7512
+  D_A Loss: 0.1860
+  D_B Loss: 0.1742
+  Cycle Loss: 0.1224
+  Identity Loss: 0.1565
+  Total Loss: 1.9313
+  LR: 0.000178
+
+Epoch 112/200 Summary:
+  G Loss: 1.7235
+  D_A Loss: 0.1866
+  D_B Loss: 0.1805
+  Cycle Loss: 0.1211
+  Identity Loss: 0.1574
+  Total Loss: 1.9070
+  LR: 0.000176
+ New best model!
+
+Epoch 113/200 Summary:
+  G Loss: 1.7245
+  D_A Loss: 0.1828
+  D_B Loss: 0.1807
+  Cycle Loss: 0.1200
+  Identity Loss: 0.1560
+  Total Loss: 1.9063
+  LR: 0.000174
+ New best model!
+
+Epoch 114/200 Summary:
+  G Loss: 1.7130
+  D_A Loss: 0.1879
+  D_B Loss: 0.1812
+  Cycle Loss: 0.1201
+  Identity Loss: 0.1583
+  Total Loss: 1.8976
+  LR: 0.000172
+ New best model!
+
+Epoch 115/200 Summary:
+  G Loss: 1.6737
+  D_A Loss: 0.1888
+  D_B Loss: 0.1813
+  Cycle Loss: 0.1161
+  Identity Loss: 0.1549
+  Total Loss: 1.8588
+  LR: 0.000170
+ New best model!
+
+Epoch 116/200 Summary:
+  G Loss: 1.7074
+  D_A Loss: 0.1804
+  D_B Loss: 0.1766
+  Cycle Loss: 0.1185
+  Identity Loss: 0.1546
+  Total Loss: 1.8859
+  LR: 0.000168
+
+Epoch 117/200 Summary:
+  G Loss: 1.7042
+  D_A Loss: 0.1849
+  D_B Loss: 0.1818
+  Cycle Loss: 0.1186
+  Identity Loss: 0.1553
+  Total Loss: 1.8876
+  LR: 0.000166
+
+Epoch 118/200 Summary:
+  G Loss: 1.7297
+  D_A Loss: 0.1767
+  D_B Loss: 0.1773
+  Cycle Loss: 0.1204
+  Identity Loss: 0.1584
+  Total Loss: 1.9067
+  LR: 0.000164
+
+Epoch 119/200 Summary:
+  G Loss: 1.7104
+  D_A Loss: 0.1804
+  D_B Loss: 0.1760
+  Cycle Loss: 0.1186
+  Identity Loss: 0.1549
+  Total Loss: 1.8886
+  LR: 0.000162
+
+Epoch 120/200 Summary:
+  G Loss: 1.7171
+  D_A Loss: 0.1816
+  D_B Loss: 0.1801
+  Cycle Loss: 0.1195
+  Identity Loss: 0.1564
+  Total Loss: 1.8980
+  LR: 0.000160
+
+Epoch 121/200 Summary:
+  G Loss: 1.6818
+  D_A Loss: 0.1855
+  D_B Loss: 0.1799
+  Cycle Loss: 0.1166
+  Identity Loss: 0.1546
+  Total Loss: 1.8646
+  LR: 0.000158

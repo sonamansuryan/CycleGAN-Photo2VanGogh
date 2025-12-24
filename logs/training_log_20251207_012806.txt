@@ -1,0 +1,622 @@
+======================================================================
+TRAINING STARTED: 20251207_012806
+======================================================================
+Device: cuda
+GPU: NVIDIA GeForce RTX 4070 Laptop GPU
+Memory: 8.00 GB
+Dataset loaded: 1500 image pairs
+AUTO-RESUMING from epoch 121
+Training from epoch 121 to 200
+======================================================================
+
+
+Epoch 121/200 Summary:
+  G Loss: 1.6760
+  D_A Loss: 0.1824
+  D_B Loss: 0.1836
+  Cycle Loss: 0.1164
+  Identity Loss: 0.1534
+  Total Loss: 1.8589
+  LR: 0.000158
+ New best model!
+
+Epoch 122/200 Summary:
+  G Loss: 1.6773
+  D_A Loss: 0.1815
+  D_B Loss: 0.1763
+  Cycle Loss: 0.1158
+  Identity Loss: 0.1530
+  Total Loss: 1.8562
+  LR: 0.000156
+ New best model!
+
+Epoch 123/200 Summary:
+  G Loss: 1.6656
+  D_A Loss: 0.1820
+  D_B Loss: 0.1787
+  Cycle Loss: 0.1147
+  Identity Loss: 0.1547
+  Total Loss: 1.8459
+  LR: 0.000154
+ New best model!
+
+Epoch 124/200 Summary:
+  G Loss: 1.6778
+  D_A Loss: 0.1794
+  D_B Loss: 0.1799
+  Cycle Loss: 0.1158
+  Identity Loss: 0.1516
+  Total Loss: 1.8575
+  LR: 0.000152
+
+Epoch 125/200 Summary:
+  G Loss: 1.6725
+  D_A Loss: 0.1809
+  D_B Loss: 0.1783
+  Cycle Loss: 0.1155
+  Identity Loss: 0.1548
+  Total Loss: 1.8521
+  LR: 0.000150
+
+Epoch 126/200 Summary:
+  G Loss: 1.6835
+  D_A Loss: 0.1799
+  D_B Loss: 0.1774
+  Cycle Loss: 0.1164
+  Identity Loss: 0.1533
+  Total Loss: 1.8621
+  LR: 0.000148
+
+Epoch 127/200 Summary:
+  G Loss: 1.6527
+  D_A Loss: 0.1857
+  D_B Loss: 0.1794
+  Cycle Loss: 0.1141
+  Identity Loss: 0.1523
+  Total Loss: 1.8353
+  LR: 0.000146
+ New best model!
+
+Epoch 128/200 Summary:
+  G Loss: 1.6714
+  D_A Loss: 0.1828
+  D_B Loss: 0.1762
+  Cycle Loss: 0.1154
+  Identity Loss: 0.1514
+  Total Loss: 1.8509
+  LR: 0.000144
+
+Epoch 129/200 Summary:
+  G Loss: 1.6502
+  D_A Loss: 0.1813
+  D_B Loss: 0.1766
+  Cycle Loss: 0.1133
+  Identity Loss: 0.1504
+  Total Loss: 1.8292
+  LR: 0.000142
+ New best model!
+
+Epoch 130/200 Summary:
+  G Loss: 1.6500
+  D_A Loss: 0.1817
+  D_B Loss: 0.1766
+  Cycle Loss: 0.1134
+  Identity Loss: 0.1520
+  Total Loss: 1.8291
+  LR: 0.000140
+ New best model!
+
+Epoch 131/200 Summary:
+  G Loss: 1.6522
+  D_A Loss: 0.1810
+  D_B Loss: 0.1761
+  Cycle Loss: 0.1133
+  Identity Loss: 0.1507
+  Total Loss: 1.8307
+  LR: 0.000138
+
+Epoch 132/200 Summary:
+  G Loss: 1.6356
+  D_A Loss: 0.1853
+  D_B Loss: 0.1799
+  Cycle Loss: 0.1128
+  Identity Loss: 0.1503
+  Total Loss: 1.8182
+  LR: 0.000136
+ New best model!
+
+Epoch 133/200 Summary:
+  G Loss: 1.6414
+  D_A Loss: 0.1821
+  D_B Loss: 0.1761
+  Cycle Loss: 0.1124
+  Identity Loss: 0.1501
+  Total Loss: 1.8205
+  LR: 0.000134
+
+Epoch 134/200 Summary:
+  G Loss: 1.6475
+  D_A Loss: 0.1751
+  D_B Loss: 0.1740
+  Cycle Loss: 0.1121
+  Identity Loss: 0.1476
+  Total Loss: 1.8221
+  LR: 0.000132
+
+Epoch 135/200 Summary:
+  G Loss: 1.6377
+  D_A Loss: 0.1808
+  D_B Loss: 0.1783
+  Cycle Loss: 0.1123
+  Identity Loss: 0.1496
+  Total Loss: 1.8173
+  LR: 0.000130
+ New best model!
+
+Epoch 136/200 Summary:
+  G Loss: 1.6394
+  D_A Loss: 0.1811
+  D_B Loss: 0.1765
+  Cycle Loss: 0.1123
+  Identity Loss: 0.1480
+  Total Loss: 1.8183
+  LR: 0.000128
+
+Epoch 137/200 Summary:
+  G Loss: 1.6294
+  D_A Loss: 0.1805
+  D_B Loss: 0.1759
+  Cycle Loss: 0.1114
+  Identity Loss: 0.1497
+  Total Loss: 1.8076
+  LR: 0.000126
+ New best model!
+
+Epoch 138/200 Summary:
+  G Loss: 1.6225
+  D_A Loss: 0.1844
+  D_B Loss: 0.1768
+  Cycle Loss: 0.1109
+  Identity Loss: 0.1492
+  Total Loss: 1.8031
+  LR: 0.000124
+ New best model!
+
+Epoch 139/200 Summary:
+  G Loss: 1.6638
+  D_A Loss: 0.1764
+  D_B Loss: 0.1721
+  Cycle Loss: 0.1137
+  Identity Loss: 0.1511
+  Total Loss: 1.8380
+  LR: 0.000122
+
+Epoch 140/200 Summary:
+  G Loss: 1.6331
+  D_A Loss: 0.1792
+  D_B Loss: 0.1764
+  Cycle Loss: 0.1114
+  Identity Loss: 0.1481
+  Total Loss: 1.8110
+  LR: 0.000120
+
+Epoch 141/200 Summary:
+  G Loss: 1.6410
+  D_A Loss: 0.1804
+  D_B Loss: 0.1728
+  Cycle Loss: 0.1119
+  Identity Loss: 0.1487
+  Total Loss: 1.8176
+  LR: 0.000118
+
+Epoch 142/200 Summary:
+  G Loss: 1.6230
+  D_A Loss: 0.1798
+  D_B Loss: 0.1745
+  Cycle Loss: 0.1102
+  Identity Loss: 0.1470
+  Total Loss: 1.8001
+  LR: 0.000116
+ New best model!
+
+Epoch 143/200 Summary:
+  G Loss: 1.6093
+  D_A Loss: 0.1795
+  D_B Loss: 0.1728
+  Cycle Loss: 0.1093
+  Identity Loss: 0.1479
+  Total Loss: 1.7854
+  LR: 0.000114
+ New best model!
+
+Epoch 144/200 Summary:
+  G Loss: 1.6243
+  D_A Loss: 0.1748
+  D_B Loss: 0.1744
+  Cycle Loss: 0.1102
+  Identity Loss: 0.1458
+  Total Loss: 1.7989
+  LR: 0.000112
+
+Epoch 145/200 Summary:
+  G Loss: 1.6240
+  D_A Loss: 0.1763
+  D_B Loss: 0.1692
+  Cycle Loss: 0.1098
+  Identity Loss: 0.1483
+  Total Loss: 1.7968
+  LR: 0.000110
+
+Epoch 146/200 Summary:
+  G Loss: 1.6021
+  D_A Loss: 0.1787
+  D_B Loss: 0.1706
+  Cycle Loss: 0.1080
+  Identity Loss: 0.1448
+  Total Loss: 1.7768
+  LR: 0.000108
+ New best model!
+
+Epoch 147/200 Summary:
+  G Loss: 1.6091
+  D_A Loss: 0.1805
+  D_B Loss: 0.1742
+  Cycle Loss: 0.1094
+  Identity Loss: 0.1474
+  Total Loss: 1.7864
+  LR: 0.000106
+
+Epoch 148/200 Summary:
+  G Loss: 1.6094
+  D_A Loss: 0.1795
+  D_B Loss: 0.1731
+  Cycle Loss: 0.1092
+  Identity Loss: 0.1465
+  Total Loss: 1.7857
+  LR: 0.000104
+
+Epoch 149/200 Summary:
+  G Loss: 1.6112
+  D_A Loss: 0.1776
+  D_B Loss: 0.1734
+  Cycle Loss: 0.1092
+  Identity Loss: 0.1443
+  Total Loss: 1.7867
+  LR: 0.000102
+
+Epoch 150/200 Summary:
+  G Loss: 1.5889
+  D_A Loss: 0.1797
+  D_B Loss: 0.1722
+  Cycle Loss: 0.1074
+  Identity Loss: 0.1455
+  Total Loss: 1.7649
+  LR: 0.000100
+ New best model!
+
+Epoch 151/200 Summary:
+  G Loss: 1.6126
+  D_A Loss: 0.1761
+  D_B Loss: 0.1722
+  Cycle Loss: 0.1090
+  Identity Loss: 0.1460
+  Total Loss: 1.7867
+  LR: 0.000098
+
+Epoch 152/200 Summary:
+  G Loss: 1.5936
+  D_A Loss: 0.1769
+  D_B Loss: 0.1710
+  Cycle Loss: 0.1073
+  Identity Loss: 0.1459
+  Total Loss: 1.7676
+  LR: 0.000096
+
+Epoch 153/200 Summary:
+  G Loss: 1.5949
+  D_A Loss: 0.1750
+  D_B Loss: 0.1708
+  Cycle Loss: 0.1069
+  Identity Loss: 0.1442
+  Total Loss: 1.7678
+  LR: 0.000094
+
+Epoch 154/200 Summary:
+  G Loss: 1.6037
+  D_A Loss: 0.1756
+  D_B Loss: 0.1709
+  Cycle Loss: 0.1073
+  Identity Loss: 0.1437
+  Total Loss: 1.7769
+  LR: 0.000092
+
+Epoch 155/200 Summary:
+  G Loss: 1.6027
+  D_A Loss: 0.1743
+  D_B Loss: 0.1724
+  Cycle Loss: 0.1077
+  Identity Loss: 0.1437
+  Total Loss: 1.7761
+  LR: 0.000090
+
+Epoch 156/200 Summary:
+  G Loss: 1.5935
+  D_A Loss: 0.1774
+  D_B Loss: 0.1688
+  Cycle Loss: 0.1071
+  Identity Loss: 0.1433
+  Total Loss: 1.7666
+  LR: 0.000088
+
+Epoch 157/200 Summary:
+  G Loss: 1.5923
+  D_A Loss: 0.1723
+  D_B Loss: 0.1687
+  Cycle Loss: 0.1060
+  Identity Loss: 0.1429
+  Total Loss: 1.7628
+  LR: 0.000086
+ New best model!
+
+Epoch 158/200 Summary:
+  G Loss: 1.5681
+  D_A Loss: 0.1735
+  D_B Loss: 0.1715
+  Cycle Loss: 0.1043
+  Identity Loss: 0.1418
+  Total Loss: 1.7406
+  LR: 0.000084
+ New best model!
+
+Epoch 159/200 Summary:
+  G Loss: 1.5943
+  D_A Loss: 0.1768
+  D_B Loss: 0.1706
+  Cycle Loss: 0.1071
+  Identity Loss: 0.1432
+  Total Loss: 1.7681
+  LR: 0.000082
+
+Epoch 160/200 Summary:
+  G Loss: 1.5993
+  D_A Loss: 0.1692
+  D_B Loss: 0.1679
+  Cycle Loss: 0.1068
+  Identity Loss: 0.1413
+  Total Loss: 1.7678
+  LR: 0.000080
+
+Epoch 161/200 Summary:
+  G Loss: 1.5810
+  D_A Loss: 0.1741
+  D_B Loss: 0.1686
+  Cycle Loss: 0.1053
+  Identity Loss: 0.1408
+  Total Loss: 1.7524
+  LR: 0.000078
+
+Epoch 162/200 Summary:
+  G Loss: 1.5781
+  D_A Loss: 0.1733
+  D_B Loss: 0.1678
+  Cycle Loss: 0.1052
+  Identity Loss: 0.1406
+  Total Loss: 1.7487
+  LR: 0.000076
+
+Epoch 163/200 Summary:
+  G Loss: 1.5878
+  D_A Loss: 0.1733
+  D_B Loss: 0.1677
+  Cycle Loss: 0.1061
+  Identity Loss: 0.1410
+  Total Loss: 1.7583
+  LR: 0.000074
+
+Epoch 164/200 Summary:
+  G Loss: 1.5667
+  D_A Loss: 0.1744
+  D_B Loss: 0.1700
+  Cycle Loss: 0.1042
+  Identity Loss: 0.1407
+  Total Loss: 1.7389
+  LR: 0.000072
+ New best model!
+
+Epoch 165/200 Summary:
+  G Loss: 1.5702
+  D_A Loss: 0.1733
+  D_B Loss: 0.1688
+  Cycle Loss: 0.1041
+  Identity Loss: 0.1387
+  Total Loss: 1.7412
+  LR: 0.000070
+
+Epoch 166/200 Summary:
+  G Loss: 1.5620
+  D_A Loss: 0.1744
+  D_B Loss: 0.1684
+  Cycle Loss: 0.1038
+  Identity Loss: 0.1384
+  Total Loss: 1.7334
+  LR: 0.000068
+ New best model!
+
+Epoch 167/200 Summary:
+  G Loss: 1.5570
+  D_A Loss: 0.1751
+  D_B Loss: 0.1704
+  Cycle Loss: 0.1037
+  Identity Loss: 0.1393
+  Total Loss: 1.7297
+  LR: 0.000066
+ New best model!
+
+Epoch 168/200 Summary:
+  G Loss: 1.5654
+  D_A Loss: 0.1741
+  D_B Loss: 0.1693
+  Cycle Loss: 0.1042
+  Identity Loss: 0.1411
+  Total Loss: 1.7371
+  LR: 0.000064
+
+Epoch 169/200 Summary:
+  G Loss: 1.5608
+  D_A Loss: 0.1759
+  D_B Loss: 0.1667
+  Cycle Loss: 0.1039
+  Identity Loss: 0.1398
+  Total Loss: 1.7321
+  LR: 0.000062
+
+Epoch 170/200 Summary:
+  G Loss: 1.5490
+  D_A Loss: 0.1719
+  D_B Loss: 0.1674
+  Cycle Loss: 0.1023
+  Identity Loss: 0.1377
+  Total Loss: 1.7187
+  LR: 0.000060
+ New best model!
+
+Epoch 171/200 Summary:
+  G Loss: 1.5509
+  D_A Loss: 0.1734
+  D_B Loss: 0.1661
+  Cycle Loss: 0.1023
+  Identity Loss: 0.1385
+  Total Loss: 1.7206
+  LR: 0.000058
+
+Epoch 172/200 Summary:
+  G Loss: 1.5496
+  D_A Loss: 0.1743
+  D_B Loss: 0.1670
+  Cycle Loss: 0.1026
+  Identity Loss: 0.1384
+  Total Loss: 1.7202
+  LR: 0.000056
+
+Epoch 173/200 Summary:
+  G Loss: 1.5527
+  D_A Loss: 0.1701
+  D_B Loss: 0.1675
+  Cycle Loss: 0.1022
+  Identity Loss: 0.1384
+  Total Loss: 1.7215
+  LR: 0.000054
+
+Epoch 174/200 Summary:
+  G Loss: 1.5476
+  D_A Loss: 0.1730
+  D_B Loss: 0.1674
+  Cycle Loss: 0.1016
+  Identity Loss: 0.1380
+  Total Loss: 1.7178
+  LR: 0.000052
+ New best model!
+
+Epoch 175/200 Summary:
+  G Loss: 1.5429
+  D_A Loss: 0.1711
+  D_B Loss: 0.1659
+  Cycle Loss: 0.1015
+  Identity Loss: 0.1387
+  Total Loss: 1.7113
+  LR: 0.000050
+ New best model!
+
+Epoch 176/200 Summary:
+  G Loss: 1.5352
+  D_A Loss: 0.1732
+  D_B Loss: 0.1660
+  Cycle Loss: 0.1009
+  Identity Loss: 0.1357
+  Total Loss: 1.7048
+  LR: 0.000048
+ New best model!
+
+Epoch 177/200 Summary:
+  G Loss: 1.5398
+  D_A Loss: 0.1724
+  D_B Loss: 0.1646
+  Cycle Loss: 0.1010
+  Identity Loss: 0.1365
+  Total Loss: 1.7083
+  LR: 0.000046
+
+Epoch 178/200 Summary:
+  G Loss: 1.5404
+  D_A Loss: 0.1706
+  D_B Loss: 0.1642
+  Cycle Loss: 0.1011
+  Identity Loss: 0.1377
+  Total Loss: 1.7078
+  LR: 0.000044
+
+Epoch 179/200 Summary:
+  G Loss: 1.5461
+  D_A Loss: 0.1686
+  D_B Loss: 0.1648
+  Cycle Loss: 0.1012
+  Identity Loss: 0.1347
+  Total Loss: 1.7128
+  LR: 0.000042
+
+Epoch 180/200 Summary:
+  G Loss: 1.5275
+  D_A Loss: 0.1729
+  D_B Loss: 0.1641
+  Cycle Loss: 0.0998
+  Identity Loss: 0.1361
+  Total Loss: 1.6960
+  LR: 0.000040
+ New best model!
+
+Epoch 181/200 Summary:
+  G Loss: 1.5195
+  D_A Loss: 0.1699
+  D_B Loss: 0.1655
+  Cycle Loss: 0.0989
+  Identity Loss: 0.1347
+  Total Loss: 1.6872
+  LR: 0.000038
+ New best model!
+
+Epoch 182/200 Summary:
+  G Loss: 1.5276
+  D_A Loss: 0.1727
+  D_B Loss: 0.1627
+  Cycle Loss: 0.0994
+  Identity Loss: 0.1346
+  Total Loss: 1.6953
+  LR: 0.000036
+
+Epoch 183/200 Summary:
+  G Loss: 1.5111
+  D_A Loss: 0.1691
+  D_B Loss: 0.1652
+  Cycle Loss: 0.0983
+  Identity Loss: 0.1338
+  Total Loss: 1.6782
+  LR: 0.000034
+ New best model!
+
+Epoch 184/200 Summary:
+  G Loss: 1.5275
+  D_A Loss: 0.1687
+  D_B Loss: 0.1611
+  Cycle Loss: 0.0993
+  Identity Loss: 0.1331
+  Total Loss: 1.6924
+  LR: 0.000032
+
+Epoch 185/200 Summary:
+  G Loss: 1.5205
+  D_A Loss: 0.1703
+  D_B Loss: 0.1608
+  Cycle Loss: 0.0984
+  Identity Loss: 0.1346
+  Total Loss: 1.6860
+  LR: 0.000030

@@ -1,0 +1,749 @@
+======================================================================
+TRAINING STARTED: 20251207_182833
+======================================================================
+Device: cuda
+GPU: NVIDIA GeForce RTX 4070 Laptop GPU
+Memory: 8.00 GB
+
+Training Configuration:
+  Total epochs: 300
+  Batch size: 2
+  Lambda cycle: 15.0
+  Lambda identity: 0.1
+  Decay starts at epoch: 150
+  Validation every: 1 epochs
+  Overfitting threshold: 0.15
+
+Dataset loaded:
+  Training: 1500 image pairs
+  Validation: 1038 image pairs
+  Overfitting detection: ENABLED
+
+[RESUME] Continuing from epoch 201
+Training from epoch 201 to 300
+======================================================================
+
+
+Epoch 201/300 Summary:
+  [TRAIN] G Loss: 2.3581
+  [TRAIN] D_A Loss: 0.1513
+  [TRAIN] D_B Loss: 0.1474
+  [TRAIN] Cycle Loss: 0.1190
+  [TRAIN] Identity Loss: 0.1564
+  [TRAIN] Total Loss: 2.5074
+  [VAL] Total Loss: 2.7682
+  [VAL] Loss Gap: 0.2609
+  [WARNING] Possible overfitting detected! (Gap > 0.15)
+  [WARNING] Total overfitting warnings: 1
+  Learning Rate: 0.000132
+  [BEST] New best model saved!
+
+Epoch 202/300 Summary:
+  [TRAIN] G Loss: 2.3046
+  [TRAIN] D_A Loss: 0.1456
+  [TRAIN] D_B Loss: 0.1434
+  [TRAIN] Cycle Loss: 0.1166
+  [TRAIN] Identity Loss: 0.1539
+  [TRAIN] Total Loss: 2.4491
+  [VAL] Total Loss: 2.6986
+  [VAL] Loss Gap: 0.2494
+  [WARNING] Possible overfitting detected! (Gap > 0.15)
+  [WARNING] Total overfitting warnings: 2
+  Learning Rate: 0.000131
+  [BEST] New best model saved!
+
+Epoch 203/300 Summary:
+  [TRAIN] G Loss: 2.2775
+  [TRAIN] D_A Loss: 0.1436
+  [TRAIN] D_B Loss: 0.1457
+  [TRAIN] Cycle Loss: 0.1153
+  [TRAIN] Identity Loss: 0.1572
+  [TRAIN] Total Loss: 2.4222
+  [VAL] Total Loss: 2.3826
+  [VAL] Loss Gap: -0.0396
+  Learning Rate: 0.000129
+  [BEST] New best model saved!
+
+Epoch 204/300 Summary:
+  [TRAIN] G Loss: 2.2665
+  [TRAIN] D_A Loss: 0.1419
+  [TRAIN] D_B Loss: 0.1429
+  [TRAIN] Cycle Loss: 0.1146
+  [TRAIN] Identity Loss: 0.1543
+  [TRAIN] Total Loss: 2.4089
+  [VAL] Total Loss: 2.5616
+  [VAL] Loss Gap: 0.1528
+  [WARNING] Possible overfitting detected! (Gap > 0.15)
+  [WARNING] Total overfitting warnings: 3
+  Learning Rate: 0.000128
+
+Epoch 205/300 Summary:
+  [TRAIN] G Loss: 2.2544
+  [TRAIN] D_A Loss: 0.1415
+  [TRAIN] D_B Loss: 0.1418
+  [TRAIN] Cycle Loss: 0.1140
+  [TRAIN] Identity Loss: 0.1557
+  [TRAIN] Total Loss: 2.3961
+  [VAL] Total Loss: 2.3839
+  [VAL] Loss Gap: -0.0121
+  Learning Rate: 0.000127
+
+Epoch 206/300 Summary:
+  [TRAIN] G Loss: 2.2357
+  [TRAIN] D_A Loss: 0.1444
+  [TRAIN] D_B Loss: 0.1421
+  [TRAIN] Cycle Loss: 0.1124
+  [TRAIN] Identity Loss: 0.1568
+  [TRAIN] Total Loss: 2.3790
+  [VAL] Total Loss: 2.4696
+  [VAL] Loss Gap: 0.0907
+  Learning Rate: 0.000125
+
+Epoch 207/300 Summary:
+  [TRAIN] G Loss: 2.2353
+  [TRAIN] D_A Loss: 0.1403
+  [TRAIN] D_B Loss: 0.1392
+  [TRAIN] Cycle Loss: 0.1122
+  [TRAIN] Identity Loss: 0.1572
+  [TRAIN] Total Loss: 2.3751
+  [VAL] Total Loss: 2.4546
+  [VAL] Loss Gap: 0.0795
+  Learning Rate: 0.000124
+
+Epoch 208/300 Summary:
+  [TRAIN] G Loss: 2.2333
+  [TRAIN] D_A Loss: 0.1399
+  [TRAIN] D_B Loss: 0.1378
+  [TRAIN] Cycle Loss: 0.1117
+  [TRAIN] Identity Loss: 0.1572
+  [TRAIN] Total Loss: 2.3722
+  [VAL] Total Loss: 2.4237
+  [VAL] Loss Gap: 0.0515
+  Learning Rate: 0.000123
+
+Epoch 209/300 Summary:
+  [TRAIN] G Loss: 2.2192
+  [TRAIN] D_A Loss: 0.1396
+  [TRAIN] D_B Loss: 0.1356
+  [TRAIN] Cycle Loss: 0.1108
+  [TRAIN] Identity Loss: 0.1569
+  [TRAIN] Total Loss: 2.3569
+  [VAL] Total Loss: 2.5634
+  [VAL] Loss Gap: 0.2065
+  [WARNING] Possible overfitting detected! (Gap > 0.15)
+  [WARNING] Total overfitting warnings: 4
+  Learning Rate: 0.000121
+
+Epoch 210/300 Summary:
+  [TRAIN] G Loss: 2.2131
+  [TRAIN] D_A Loss: 0.1425
+  [TRAIN] D_B Loss: 0.1399
+  [TRAIN] Cycle Loss: 0.1104
+  [TRAIN] Identity Loss: 0.1568
+  [TRAIN] Total Loss: 2.3543
+  [VAL] Total Loss: 2.4364
+  [VAL] Loss Gap: 0.0821
+  Learning Rate: 0.000120
+
+Epoch 211/300 Summary:
+  [TRAIN] G Loss: 2.2021
+  [TRAIN] D_A Loss: 0.1382
+  [TRAIN] D_B Loss: 0.1394
+  [TRAIN] Cycle Loss: 0.1097
+  [TRAIN] Identity Loss: 0.1591
+  [TRAIN] Total Loss: 2.3409
+  [VAL] Total Loss: 2.2646
+  [VAL] Loss Gap: -0.0763
+  Learning Rate: 0.000119
+  [BEST] New best model saved!
+
+Epoch 212/300 Summary:
+  [TRAIN] G Loss: 2.2104
+  [TRAIN] D_A Loss: 0.1379
+  [TRAIN] D_B Loss: 0.1381
+  [TRAIN] Cycle Loss: 0.1100
+  [TRAIN] Identity Loss: 0.1590
+  [TRAIN] Total Loss: 2.3484
+  [VAL] Total Loss: 2.4644
+  [VAL] Loss Gap: 0.1160
+  Learning Rate: 0.000117
+
+Epoch 213/300 Summary:
+  [TRAIN] G Loss: 2.1890
+  [TRAIN] D_A Loss: 0.1410
+  [TRAIN] D_B Loss: 0.1359
+  [TRAIN] Cycle Loss: 0.1084
+  [TRAIN] Identity Loss: 0.1574
+  [TRAIN] Total Loss: 2.3274
+  [VAL] Total Loss: 2.3377
+  [VAL] Loss Gap: 0.0102
+  Learning Rate: 0.000116
+
+Epoch 214/300 Summary:
+  [TRAIN] G Loss: 2.1943
+  [TRAIN] D_A Loss: 0.1364
+  [TRAIN] D_B Loss: 0.1355
+  [TRAIN] Cycle Loss: 0.1086
+  [TRAIN] Identity Loss: 0.1598
+  [TRAIN] Total Loss: 2.3303
+  [VAL] Total Loss: 2.3224
+  [VAL] Loss Gap: -0.0079
+  Learning Rate: 0.000115
+
+Epoch 215/300 Summary:
+  [TRAIN] G Loss: 2.1767
+  [TRAIN] D_A Loss: 0.1366
+  [TRAIN] D_B Loss: 0.1343
+  [TRAIN] Cycle Loss: 0.1074
+  [TRAIN] Identity Loss: 0.1604
+  [TRAIN] Total Loss: 2.3122
+  [VAL] Total Loss: 2.6408
+  [VAL] Loss Gap: 0.3286
+  [WARNING] Possible overfitting detected! (Gap > 0.15)
+  [WARNING] Total overfitting warnings: 5
+  Learning Rate: 0.000113
+
+Epoch 216/300 Summary:
+  [TRAIN] G Loss: 2.1980
+  [TRAIN] D_A Loss: 0.1352
+  [TRAIN] D_B Loss: 0.1330
+  [TRAIN] Cycle Loss: 0.1089
+  [TRAIN] Identity Loss: 0.1590
+  [TRAIN] Total Loss: 2.3321
+  [VAL] Total Loss: 2.2798
+  [VAL] Loss Gap: -0.0523
+  Learning Rate: 0.000112
+
+Epoch 217/300 Summary:
+  [TRAIN] G Loss: 2.1621
+  [TRAIN] D_A Loss: 0.1374
+  [TRAIN] D_B Loss: 0.1343
+  [TRAIN] Cycle Loss: 0.1063
+  [TRAIN] Identity Loss: 0.1577
+  [TRAIN] Total Loss: 2.2979
+  [VAL] Total Loss: 2.3443
+  [VAL] Loss Gap: 0.0464
+  Learning Rate: 0.000111
+
+Epoch 218/300 Summary:
+  [TRAIN] G Loss: 2.1756
+  [TRAIN] D_A Loss: 0.1331
+  [TRAIN] D_B Loss: 0.1307
+  [TRAIN] Cycle Loss: 0.1065
+  [TRAIN] Identity Loss: 0.1587
+  [TRAIN] Total Loss: 2.3075
+  [VAL] Total Loss: 2.3432
+  [VAL] Loss Gap: 0.0356
+  Learning Rate: 0.000109
+
+Epoch 219/300 Summary:
+  [TRAIN] G Loss: 2.1770
+  [TRAIN] D_A Loss: 0.1336
+  [TRAIN] D_B Loss: 0.1315
+  [TRAIN] Cycle Loss: 0.1068
+  [TRAIN] Identity Loss: 0.1582
+  [TRAIN] Total Loss: 2.3096
+  [VAL] Total Loss: 2.4003
+  [VAL] Loss Gap: 0.0907
+  Learning Rate: 0.000108
+
+Epoch 220/300 Summary:
+  [TRAIN] G Loss: 2.1937
+  [TRAIN] D_A Loss: 0.1324
+  [TRAIN] D_B Loss: 0.1317
+  [TRAIN] Cycle Loss: 0.1081
+  [TRAIN] Identity Loss: 0.1586
+  [TRAIN] Total Loss: 2.3258
+  [VAL] Total Loss: 2.4259
+  [VAL] Loss Gap: 0.1001
+  Learning Rate: 0.000107
+
+Epoch 221/300 Summary:
+  [TRAIN] G Loss: 2.1674
+  [TRAIN] D_A Loss: 0.1346
+  [TRAIN] D_B Loss: 0.1316
+  [TRAIN] Cycle Loss: 0.1061
+  [TRAIN] Identity Loss: 0.1573
+  [TRAIN] Total Loss: 2.3005
+  [VAL] Total Loss: 2.3514
+  [VAL] Loss Gap: 0.0509
+  Learning Rate: 0.000105
+
+Epoch 222/300 Summary:
+  [TRAIN] G Loss: 2.1612
+  [TRAIN] D_A Loss: 0.1336
+  [TRAIN] D_B Loss: 0.1296
+  [TRAIN] Cycle Loss: 0.1059
+  [TRAIN] Identity Loss: 0.1580
+  [TRAIN] Total Loss: 2.2928
+  [VAL] Total Loss: 2.3777
+  [VAL] Loss Gap: 0.0849
+  Learning Rate: 0.000104
+
+Epoch 223/300 Summary:
+  [TRAIN] G Loss: 2.1979
+  [TRAIN] D_A Loss: 0.1322
+  [TRAIN] D_B Loss: 0.1285
+  [TRAIN] Cycle Loss: 0.1076
+  [TRAIN] Identity Loss: 0.1606
+  [TRAIN] Total Loss: 2.3283
+  [VAL] Total Loss: 2.3578
+  [VAL] Loss Gap: 0.0295
+  Learning Rate: 0.000103
+
+Epoch 224/300 Summary:
+  [TRAIN] G Loss: 2.1630
+  [TRAIN] D_A Loss: 0.1318
+  [TRAIN] D_B Loss: 0.1257
+  [TRAIN] Cycle Loss: 0.1053
+  [TRAIN] Identity Loss: 0.1576
+  [TRAIN] Total Loss: 2.2917
+  [VAL] Total Loss: 2.3776
+  [VAL] Loss Gap: 0.0859
+  Learning Rate: 0.000101
+
+Epoch 225/300 Summary:
+  [TRAIN] G Loss: 2.1369
+  [TRAIN] D_A Loss: 0.1317
+  [TRAIN] D_B Loss: 0.1274
+  [TRAIN] Cycle Loss: 0.1038
+  [TRAIN] Identity Loss: 0.1576
+  [TRAIN] Total Loss: 2.2664
+  [VAL] Total Loss: 2.4278
+  [VAL] Loss Gap: 0.1613
+  [WARNING] Possible overfitting detected! (Gap > 0.15)
+  [WARNING] Total overfitting warnings: 6
+  Learning Rate: 0.000100
+
+Epoch 226/300 Summary:
+  [TRAIN] G Loss: 2.1775
+  [TRAIN] D_A Loss: 0.1312
+  [TRAIN] D_B Loss: 0.1252
+  [TRAIN] Cycle Loss: 0.1057
+  [TRAIN] Identity Loss: 0.1604
+  [TRAIN] Total Loss: 2.3057
+  [VAL] Total Loss: 2.4548
+  [VAL] Loss Gap: 0.1491
+  Learning Rate: 0.000099
+
+Epoch 227/300 Summary:
+  [TRAIN] G Loss: 2.1656
+  [TRAIN] D_A Loss: 0.1315
+  [TRAIN] D_B Loss: 0.1240
+  [TRAIN] Cycle Loss: 0.1052
+  [TRAIN] Identity Loss: 0.1590
+  [TRAIN] Total Loss: 2.2934
+  [VAL] Total Loss: 2.5473
+  [VAL] Loss Gap: 0.2539
+  [WARNING] Possible overfitting detected! (Gap > 0.15)
+  [WARNING] Total overfitting warnings: 7
+  Learning Rate: 0.000097
+
+Epoch 228/300 Summary:
+  [TRAIN] G Loss: 2.1559
+  [TRAIN] D_A Loss: 0.1330
+  [TRAIN] D_B Loss: 0.1253
+  [TRAIN] Cycle Loss: 0.1047
+  [TRAIN] Identity Loss: 0.1603
+  [TRAIN] Total Loss: 2.2850
+  [VAL] Total Loss: 2.4223
+  [VAL] Loss Gap: 0.1373
+  Learning Rate: 0.000096
+
+Epoch 229/300 Summary:
+  [TRAIN] G Loss: 2.1604
+  [TRAIN] D_A Loss: 0.1304
+  [TRAIN] D_B Loss: 0.1262
+  [TRAIN] Cycle Loss: 0.1047
+  [TRAIN] Identity Loss: 0.1592
+  [TRAIN] Total Loss: 2.2886
+  [VAL] Total Loss: 2.2435
+  [VAL] Loss Gap: -0.0451
+  Learning Rate: 0.000095
+  [BEST] New best model saved!
+
+Epoch 230/300 Summary:
+  [TRAIN] G Loss: 2.1487
+  [TRAIN] D_A Loss: 0.1306
+  [TRAIN] D_B Loss: 0.1233
+  [TRAIN] Cycle Loss: 0.1038
+  [TRAIN] Identity Loss: 0.1599
+  [TRAIN] Total Loss: 2.2756
+  [VAL] Total Loss: 2.2928
+  [VAL] Loss Gap: 0.0171
+  Learning Rate: 0.000093
+
+Epoch 231/300 Summary:
+  [TRAIN] G Loss: 2.1567
+  [TRAIN] D_A Loss: 0.1294
+  [TRAIN] D_B Loss: 0.1208
+  [TRAIN] Cycle Loss: 0.1042
+  [TRAIN] Identity Loss: 0.1583
+  [TRAIN] Total Loss: 2.2818
+  [VAL] Total Loss: 2.4892
+  [VAL] Loss Gap: 0.2074
+  [WARNING] Possible overfitting detected! (Gap > 0.15)
+  [WARNING] Total overfitting warnings: 8
+  Learning Rate: 0.000092
+
+Epoch 232/300 Summary:
+  [TRAIN] G Loss: 2.1450
+  [TRAIN] D_A Loss: 0.1307
+  [TRAIN] D_B Loss: 0.1226
+  [TRAIN] Cycle Loss: 0.1035
+  [TRAIN] Identity Loss: 0.1589
+  [TRAIN] Total Loss: 2.2716
+  [VAL] Total Loss: 2.2388
+  [VAL] Loss Gap: -0.0328
+  Learning Rate: 0.000091
+  [BEST] New best model saved!
+
+Epoch 233/300 Summary:
+  [TRAIN] G Loss: 2.1508
+  [TRAIN] D_A Loss: 0.1296
+  [TRAIN] D_B Loss: 0.1229
+  [TRAIN] Cycle Loss: 0.1038
+  [TRAIN] Identity Loss: 0.1576
+  [TRAIN] Total Loss: 2.2771
+  [VAL] Total Loss: 2.2474
+  [VAL] Loss Gap: -0.0297
+  Learning Rate: 0.000089
+
+Epoch 234/300 Summary:
+  [TRAIN] G Loss: 2.1496
+  [TRAIN] D_A Loss: 0.1299
+  [TRAIN] D_B Loss: 0.1193
+  [TRAIN] Cycle Loss: 0.1035
+  [TRAIN] Identity Loss: 0.1606
+  [TRAIN] Total Loss: 2.2743
+  [VAL] Total Loss: 2.3100
+  [VAL] Loss Gap: 0.0357
+  Learning Rate: 0.000088
+
+Epoch 235/300 Summary:
+  [TRAIN] G Loss: 2.1308
+  [TRAIN] D_A Loss: 0.1295
+  [TRAIN] D_B Loss: 0.1206
+  [TRAIN] Cycle Loss: 0.1022
+  [TRAIN] Identity Loss: 0.1610
+  [TRAIN] Total Loss: 2.2559
+  [VAL] Total Loss: 2.3855
+  [VAL] Loss Gap: 0.1297
+  Learning Rate: 0.000087
+
+Epoch 236/300 Summary:
+  [TRAIN] G Loss: 2.1343
+  [TRAIN] D_A Loss: 0.1298
+  [TRAIN] D_B Loss: 0.1221
+  [TRAIN] Cycle Loss: 0.1028
+  [TRAIN] Identity Loss: 0.1593
+  [TRAIN] Total Loss: 2.2602
+  [VAL] Total Loss: 2.3688
+  [VAL] Loss Gap: 0.1086
+  Learning Rate: 0.000085
+
+Epoch 237/300 Summary:
+  [TRAIN] G Loss: 2.1478
+  [TRAIN] D_A Loss: 0.1288
+  [TRAIN] D_B Loss: 0.1205
+  [TRAIN] Cycle Loss: 0.1031
+  [TRAIN] Identity Loss: 0.1591
+  [TRAIN] Total Loss: 2.2725
+  [VAL] Total Loss: 2.2848
+  [VAL] Loss Gap: 0.0123
+  Learning Rate: 0.000084
+
+Epoch 238/300 Summary:
+  [TRAIN] G Loss: 2.1405
+  [TRAIN] D_A Loss: 0.1292
+  [TRAIN] D_B Loss: 0.1195
+  [TRAIN] Cycle Loss: 0.1027
+  [TRAIN] Identity Loss: 0.1602
+  [TRAIN] Total Loss: 2.2649
+  [VAL] Total Loss: 2.3743
+  [VAL] Loss Gap: 0.1093
+  Learning Rate: 0.000083
+
+Epoch 239/300 Summary:
+  [TRAIN] G Loss: 2.1271
+  [TRAIN] D_A Loss: 0.1294
+  [TRAIN] D_B Loss: 0.1222
+  [TRAIN] Cycle Loss: 0.1020
+  [TRAIN] Identity Loss: 0.1605
+  [TRAIN] Total Loss: 2.2529
+  [VAL] Total Loss: 2.4533
+  [VAL] Loss Gap: 0.2004
+  [WARNING] Possible overfitting detected! (Gap > 0.15)
+  [WARNING] Total overfitting warnings: 9
+  Learning Rate: 0.000081
+
+Epoch 240/300 Summary:
+  [TRAIN] G Loss: 2.1503
+  [TRAIN] D_A Loss: 0.1268
+  [TRAIN] D_B Loss: 0.1189
+  [TRAIN] Cycle Loss: 0.1031
+  [TRAIN] Identity Loss: 0.1589
+  [TRAIN] Total Loss: 2.2731
+  [VAL] Total Loss: 2.3244
+  [VAL] Loss Gap: 0.0512
+  Learning Rate: 0.000080
+
+Epoch 241/300 Summary:
+  [TRAIN] G Loss: 2.1331
+  [TRAIN] D_A Loss: 0.1286
+  [TRAIN] D_B Loss: 0.1181
+  [TRAIN] Cycle Loss: 0.1019
+  [TRAIN] Identity Loss: 0.1600
+  [TRAIN] Total Loss: 2.2565
+  [VAL] Total Loss: 2.4303
+  [VAL] Loss Gap: 0.1739
+  [WARNING] Possible overfitting detected! (Gap > 0.15)
+  [WARNING] Total overfitting warnings: 10
+  Learning Rate: 0.000079
+
+Epoch 242/300 Summary:
+  [TRAIN] G Loss: 2.1311
+  [TRAIN] D_A Loss: 0.1276
+  [TRAIN] D_B Loss: 0.1191
+  [TRAIN] Cycle Loss: 0.1016
+  [TRAIN] Identity Loss: 0.1591
+  [TRAIN] Total Loss: 2.2544
+  [VAL] Total Loss: 2.1852
+  [VAL] Loss Gap: -0.0692
+  Learning Rate: 0.000077
+  [BEST] New best model saved!
+
+Epoch 243/300 Summary:
+  [TRAIN] G Loss: 2.1301
+  [TRAIN] D_A Loss: 0.1268
+  [TRAIN] D_B Loss: 0.1203
+  [TRAIN] Cycle Loss: 0.1017
+  [TRAIN] Identity Loss: 0.1597
+  [TRAIN] Total Loss: 2.2536
+  [VAL] Total Loss: 2.4216
+  [VAL] Loss Gap: 0.1680
+  [WARNING] Possible overfitting detected! (Gap > 0.15)
+  [WARNING] Total overfitting warnings: 11
+  Learning Rate: 0.000076
+
+Epoch 244/300 Summary:
+  [TRAIN] G Loss: 2.1324
+  [TRAIN] D_A Loss: 0.1250
+  [TRAIN] D_B Loss: 0.1193
+  [TRAIN] Cycle Loss: 0.1016
+  [TRAIN] Identity Loss: 0.1597
+  [TRAIN] Total Loss: 2.2546
+  [VAL] Total Loss: 2.2601
+  [VAL] Loss Gap: 0.0056
+  Learning Rate: 0.000075
+
+Epoch 245/300 Summary:
+  [TRAIN] G Loss: 2.1130
+  [TRAIN] D_A Loss: 0.1268
+  [TRAIN] D_B Loss: 0.1180
+  [TRAIN] Cycle Loss: 0.1003
+  [TRAIN] Identity Loss: 0.1585
+  [TRAIN] Total Loss: 2.2354
+  [VAL] Total Loss: 2.3705
+  [VAL] Loss Gap: 0.1351
+  Learning Rate: 0.000073
+
+Epoch 246/300 Summary:
+  [TRAIN] G Loss: 2.1110
+  [TRAIN] D_A Loss: 0.1270
+  [TRAIN] D_B Loss: 0.1199
+  [TRAIN] Cycle Loss: 0.1003
+  [TRAIN] Identity Loss: 0.1586
+  [TRAIN] Total Loss: 2.2344
+  [VAL] Total Loss: 2.5216
+  [VAL] Loss Gap: 0.2872
+  [WARNING] Possible overfitting detected! (Gap > 0.15)
+  [WARNING] Total overfitting warnings: 12
+  Learning Rate: 0.000072
+
+Epoch 247/300 Summary:
+  [TRAIN] G Loss: 2.1257
+  [TRAIN] D_A Loss: 0.1261
+  [TRAIN] D_B Loss: 0.1189
+  [TRAIN] Cycle Loss: 0.1012
+  [TRAIN] Identity Loss: 0.1579
+  [TRAIN] Total Loss: 2.2482
+  [VAL] Total Loss: 2.2924
+  [VAL] Loss Gap: 0.0442
+  Learning Rate: 0.000071
+
+Epoch 248/300 Summary:
+  [TRAIN] G Loss: 2.1293
+  [TRAIN] D_A Loss: 0.1244
+  [TRAIN] D_B Loss: 0.1184
+  [TRAIN] Cycle Loss: 0.1013
+  [TRAIN] Identity Loss: 0.1598
+  [TRAIN] Total Loss: 2.2507
+  [VAL] Total Loss: 2.1828
+  [VAL] Loss Gap: -0.0679
+  Learning Rate: 0.000069
+  [BEST] New best model saved!
+
+Epoch 249/300 Summary:
+  [TRAIN] G Loss: 2.1186
+  [TRAIN] D_A Loss: 0.1256
+  [TRAIN] D_B Loss: 0.1170
+  [TRAIN] Cycle Loss: 0.1004
+  [TRAIN] Identity Loss: 0.1595
+  [TRAIN] Total Loss: 2.2399
+  [VAL] Total Loss: 2.4752
+  [VAL] Loss Gap: 0.2354
+  [WARNING] Possible overfitting detected! (Gap > 0.15)
+  [WARNING] Total overfitting warnings: 13
+  Learning Rate: 0.000068
+
+Epoch 250/300 Summary:
+  [TRAIN] G Loss: 2.1035
+  [TRAIN] D_A Loss: 0.1245
+  [TRAIN] D_B Loss: 0.1165
+  [TRAIN] Cycle Loss: 0.0994
+  [TRAIN] Identity Loss: 0.1589
+  [TRAIN] Total Loss: 2.2240
+  [VAL] Total Loss: 2.3465
+  [VAL] Loss Gap: 0.1225
+  Learning Rate: 0.000067
+
+Epoch 251/300 Summary:
+  [TRAIN] G Loss: 2.1056
+  [TRAIN] D_A Loss: 0.1239
+  [TRAIN] D_B Loss: 0.1166
+  [TRAIN] Cycle Loss: 0.0994
+  [TRAIN] Identity Loss: 0.1585
+  [TRAIN] Total Loss: 2.2258
+  [VAL] Total Loss: 2.3782
+  [VAL] Loss Gap: 0.1523
+  [WARNING] Possible overfitting detected! (Gap > 0.15)
+  [WARNING] Total overfitting warnings: 14
+  Learning Rate: 0.000065
+
+Epoch 252/300 Summary:
+  [TRAIN] G Loss: 2.1256
+  [TRAIN] D_A Loss: 0.1222
+  [TRAIN] D_B Loss: 0.1178
+  [TRAIN] Cycle Loss: 0.1008
+  [TRAIN] Identity Loss: 0.1595
+  [TRAIN] Total Loss: 2.2455
+  [VAL] Total Loss: 2.4175
+  [VAL] Loss Gap: 0.1720
+  [WARNING] Possible overfitting detected! (Gap > 0.15)
+  [WARNING] Total overfitting warnings: 15
+  Learning Rate: 0.000064
+
+Epoch 253/300 Summary:
+  [TRAIN] G Loss: 2.0939
+  [TRAIN] D_A Loss: 0.1248
+  [TRAIN] D_B Loss: 0.1179
+  [TRAIN] Cycle Loss: 0.0987
+  [TRAIN] Identity Loss: 0.1594
+  [TRAIN] Total Loss: 2.2153
+  [VAL] Total Loss: 2.4147
+  [VAL] Loss Gap: 0.1994
+  [WARNING] Possible overfitting detected! (Gap > 0.15)
+  [WARNING] Total overfitting warnings: 16
+  Learning Rate: 0.000063
+
+Epoch 254/300 Summary:
+  [TRAIN] G Loss: 2.0885
+  [TRAIN] D_A Loss: 0.1228
+  [TRAIN] D_B Loss: 0.1174
+  [TRAIN] Cycle Loss: 0.0983
+  [TRAIN] Identity Loss: 0.1570
+  [TRAIN] Total Loss: 2.2086
+  [VAL] Total Loss: 2.3190
+  [VAL] Loss Gap: 0.1104
+  Learning Rate: 0.000061
+
+Epoch 255/300 Summary:
+  [TRAIN] G Loss: 2.0997
+  [TRAIN] D_A Loss: 0.1233
+  [TRAIN] D_B Loss: 0.1148
+  [TRAIN] Cycle Loss: 0.0989
+  [TRAIN] Identity Loss: 0.1573
+  [TRAIN] Total Loss: 2.2187
+  [VAL] Total Loss: 2.3120
+  [VAL] Loss Gap: 0.0932
+  Learning Rate: 0.000060
+
+Epoch 256/300 Summary:
+  [TRAIN] G Loss: 2.0830
+  [TRAIN] D_A Loss: 0.1225
+  [TRAIN] D_B Loss: 0.1152
+  [TRAIN] Cycle Loss: 0.0977
+  [TRAIN] Identity Loss: 0.1579
+  [TRAIN] Total Loss: 2.2018
+  [VAL] Total Loss: 2.3434
+  [VAL] Loss Gap: 0.1416
+  Learning Rate: 0.000059
+
+Epoch 257/300 Summary:
+  [TRAIN] G Loss: 2.0985
+  [TRAIN] D_A Loss: 0.1231
+  [TRAIN] D_B Loss: 0.1153
+  [TRAIN] Cycle Loss: 0.0984
+  [TRAIN] Identity Loss: 0.1577
+  [TRAIN] Total Loss: 2.2177
+  [VAL] Total Loss: 2.3888
+  [VAL] Loss Gap: 0.1711
+  [WARNING] Possible overfitting detected! (Gap > 0.15)
+  [WARNING] Total overfitting warnings: 17
+  Learning Rate: 0.000057
+
+Epoch 258/300 Summary:
+  [TRAIN] G Loss: 2.1021
+  [TRAIN] D_A Loss: 0.1224
+  [TRAIN] D_B Loss: 0.1149
+  [TRAIN] Cycle Loss: 0.0989
+  [TRAIN] Identity Loss: 0.1582
+  [TRAIN] Total Loss: 2.2207
+  [VAL] Total Loss: 2.4438
+  [VAL] Loss Gap: 0.2231
+  [WARNING] Possible overfitting detected! (Gap > 0.15)
+  [WARNING] Total overfitting warnings: 18
+  Learning Rate: 0.000056
+
+Epoch 259/300 Summary:
+  [TRAIN] G Loss: 2.1008
+  [TRAIN] D_A Loss: 0.1229
+  [TRAIN] D_B Loss: 0.1156
+  [TRAIN] Cycle Loss: 0.0985
+  [TRAIN] Identity Loss: 0.1568
+  [TRAIN] Total Loss: 2.2201
+  [VAL] Total Loss: 2.3083
+  [VAL] Loss Gap: 0.0882
+  Learning Rate: 0.000055
+
+Epoch 260/300 Summary:
+  [TRAIN] G Loss: 2.1053
+  [TRAIN] D_A Loss: 0.1222
+  [TRAIN] D_B Loss: 0.1131
+  [TRAIN] Cycle Loss: 0.0989
+  [TRAIN] Identity Loss: 0.1604
+  [TRAIN] Total Loss: 2.2230
+  [VAL] Total Loss: 2.2869
+  [VAL] Loss Gap: 0.0639
+  Learning Rate: 0.000053
+
+Epoch 261/300 Summary:
+  [TRAIN] G Loss: 2.0829
+  [TRAIN] D_A Loss: 0.1216
+  [TRAIN] D_B Loss: 0.1145
+  [TRAIN] Cycle Loss: 0.0975
+  [TRAIN] Identity Loss: 0.1582
+  [TRAIN] Total Loss: 2.2009
+  [VAL] Total Loss: 2.3348
+  [VAL] Loss Gap: 0.1339
+  Learning Rate: 0.000052
+
+Epoch 200/200 Summary:
+  G Loss: 1.5042
+  D_A Loss: 0.1645
+  D_B Loss: 0.1548
+  Cycle Loss: 0.0961
+  Identity Loss: 0.1332
+  Total Loss: 1.6638
+  LR: 0.000000

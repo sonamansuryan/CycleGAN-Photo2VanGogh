@@ -213,7 +213,7 @@ python analyze_training_progression.py
 
 **Latest Sample: Final Epoch (Epoch 262)**
 
-![Final Epoch Sample](samples/epoch_262.png)  
+![Final Epoch Sample](samples/epoch_262.png) 
 
 **Training Progression (Epochs 150–260)**
 
@@ -297,8 +297,11 @@ For educational and research purposes. Ensure compliance with CycleGAN and datas
 
 ---
 
+### Dataset Source
+The dataset was downloaded from Kaggle: [Van Gogh2Photo Dataset](https://www.kaggle.com/…)
+
+---
+
 ## Contact
 
 Questions, issues, or contributions: see project repository or contact maintainer.
-
-```

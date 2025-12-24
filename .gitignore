@@ -13,3 +13,6 @@ ENV/
 # PyCharm
 .idea/
 *.iml
+
+checkpoints/
+*.pth

@@ -1,0 +1,7 @@
+======================================================================
+TRAINING STARTED: 20251206_030027
+======================================================================
+Device: cuda
+GPU: NVIDIA GeForce RTX 4070 Laptop GPU
+Memory: 8.00 GB
+Dataset loaded: 1500 image pairs

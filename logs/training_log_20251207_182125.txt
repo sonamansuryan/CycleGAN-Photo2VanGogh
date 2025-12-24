@@ -1,0 +1,15 @@
+======================================================================
+TRAINING STARTED: 20251207_182125
+======================================================================
+Device: cuda
+GPU: NVIDIA GeForce RTX 4070 Laptop GPU
+Memory: 8.00 GB
+
+Training Configuration:
+  Total epochs: 300
+  Batch size: 2
+  Lambda cycle: 15.0
+  Lambda identity: 0.1
+  Decay starts at epoch: 150
+  Validation every: 1 epochs
+  Overfitting threshold: 0.15
