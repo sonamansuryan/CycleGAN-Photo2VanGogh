@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+.venv311/
+env/
+ENV/
+
+# PyCharm
+.idea/
+*.iml
+
+# Data & results (optional)
+data/
+results/
+samples/
+checkpoints/
+logs/
